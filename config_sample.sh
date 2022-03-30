@@ -11,9 +11,9 @@ export team_id
 team_id=
 
 export cookie
-cookie=
+cookie="b=.str-here; d=str-here etc. Be sure to copy the full value from the inspector"
 export token
-token=
+token="xoxc-NUMBERS-AND-HEX-VALUES Only the bottom line"
 
 export ims_ignored
 ims_ignored=""

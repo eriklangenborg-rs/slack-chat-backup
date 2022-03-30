@@ -8,12 +8,6 @@ Backup your Slack chat messages (direct messages, group messages, joined channel
 * GNU's date
   - MacOS: `brew install coreutils`
 
-# INSTALLATION
-
-```
-git clone https://github.com/t-tran/slack-chat-backup.git
-```
-
 # CONFIGURATION
 
 By default, the program uses config file named `config.sh` in the program directory. There is a sample config file named `config_sample.sh`. You must fill `config.sh` file with proper settings for the program to work by following the steps below:
@@ -26,6 +20,8 @@ By default, the program uses config file named `config.sh` in the program direct
 
 ![Configuration 1](images/configuration-1.png)
 ![Configuration 2](images/configuration-2.png)
+
+*NOTE:* If config values are misapplied, be sure to clear the cookie .jar file cached on disk via `rm -rf cookies/*.jar`
 
 # USAGE
 
